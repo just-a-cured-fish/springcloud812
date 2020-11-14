@@ -28,7 +28,7 @@ logging:
 eureka:
   client: # 客户端进行Eureka注册的配置
     service-url:
-      defaultZone: http://admin:a@localhost:7002/eureka      #注意: dev环境下  eureka的端口要与前面的eureka的配置保持统一，这里是 7001
+      defaultZone: http://admin:a@localhost:7301/eureka      #注意: dev环境下  eureka的端口要与前面的eureka的配置保持统一，这里是 7001
   instance:
     instance-id: microservice-config-product-client
     prefer-ip-address: true
@@ -74,7 +74,7 @@ logging:
 eureka:
   client: # 客户端进行Eureka注册的配置
     service-url:
-      defaultZone: http://admin:a@localhost:7002/eureka
+      defaultZone: http://admin:a@localhost:7301/eureka
   instance:
     instance-id: microservice-config-product-client
     prefer-ip-address: true

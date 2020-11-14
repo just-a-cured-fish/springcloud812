@@ -26,7 +26,7 @@ spring:
     name: microservice-config-eureka-client
 ---
 server:
- port: 7002
+ port: 7050
 eureka:
   server:
     eviction-interval-timer-in-ms: 1000   #设置清理的间隔时间，而后这个时间使用的是毫秒单位（默认是60秒）
